@@ -1,13 +1,13 @@
 
-const Filmes ={
+const Filmes = {
         "Filmes": [
             {
                 "id": 1,
-                "titulo": "O Poderoso Chefão",
-                "ano": 1972,
-                "diretor": "Francis Ford Coppola",
-                "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-                "genero": "Crime"
+                "titulo": "Ainda Estou Aqui",
+                "ano": 2024,
+                "diretor": "Peter Jackson",
+                "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zNAw7jK8bwCK56rIW676pdgkwhd.jpg",
+                "genero": "Drama"
             },
             {
                 "id": 2,
@@ -24,6 +24,14 @@ const Filmes ={
                 "diretor": "Peter Jackson",
                 "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
                 "genero": "Aventura"
+            },
+            {
+                "id": 4,
+                "titulo": "O Poderoso Chefão",
+                "ano": 1972,
+                "diretor": "Francis Ford Coppola",
+                "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+                "genero": "Crime"
             }
         ]
 }
