@@ -1,6 +1,8 @@
 const Header = () => {
     return <div className="header">
-        <h1>Cinema</h1>
+        <a href="/">
+            <h1 className="headertitle">Cinema</h1>
+        </a>
     </div>
 }
 
