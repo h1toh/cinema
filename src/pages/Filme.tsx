@@ -1,5 +1,7 @@
+import Info from "../components/Info"
+
 const Filme = ()=>{
-    return <h1>Filme</h1>
+    return <Info/>
 }
 
 export default Filme
