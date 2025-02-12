@@ -7,35 +7,40 @@ const Filmes = {
             "ano": 2024,
             "diretor": "Peter Jackson",
             "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zNAw7jK8bwCK56rIW676pdgkwhd.jpg",
+            "banner": "https://ingresso-a.akamaihd.net/prd/img/movie/ainda-estou-aqui/b1360df3-9fbd-456b-b3fd-af7676cfc563.webp",
             "genero": "Drama",
-            "route": "ainda_estou_aqui"
+            "duracao": "2h30m",
+            "route": "ainda-estou-aqui"
         },
         {
             "id": 2,
-            "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
-            "ano": 2001,
-            "diretor": "Peter Jackson",
-            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/56zTpe2xvaA4alU51sRWPoKPYZy.jpg",
+            "titulo": "Sonic 3: O Filme",
+            "ano": 2024,
+            "diretor": "Jeff Fowler",
+            "poster": "https://ingresso-a.akamaihd.net/prd/img/movie/sonic-3-o-filme/63e3c50d-0a24-49dd-a5ad-8d15d487d5e4.webp",
             "genero": "Aventura",
-            "route": "o_senhor_dos_aneis_a_sociedade_do_anel"
+            "duracao": "1h30m",
+            "route": "sonic-3-o-filme"
         },
         {
             "id": 3,
-            "titulo": "O Senhor dos Anéis: As Duas Torres",
-            "ano": 2002,
-            "diretor": "Peter Jackson",
-            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
-            "genero": "Aventura",
-            "route": "o_senhor_dos_aneis_as_duas_torres"
+            "titulo": "Moana 2",
+            "ano": 2024,
+            "diretor": "David G., Derrick Jr.",
+            "poster": "https://ingresso-a.akamaihd.net/prd/img/movie/moana-2/3aa3b120-5c35-48fc-b346-d27fe120bccb.webp",
+            "genero": "Animação",
+            "duracao": "1h30m",
+            "route": "moana-2"
         },
         {
             "id": 4,
-            "titulo": "O Poderoso Chefão",
-            "ano": 1972,
-            "diretor": "Francis Ford Coppola",
-            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-            "genero": "Crime",
-            "route": "o_poderoso_chefao"
+            "titulo": "O Homem Do Saco",
+            "ano": 2024,
+            "diretor": "Colm McCarthy",
+            "poster": "https://ingresso-a.akamaihd.net/prd/img/movie/o-homem-do-saco/75c5aec0-932f-49ec-bd31-66a6f91297b4.webp",
+            "genero": "Terror",
+            "duracao": "1h30m",
+            "route": "o-homem-do-saco"
         }
     ]
 }
