@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Main = () => {
     return <div className="home">
-        <h1 className="hometitle">Filmes em alta</h1>
+        <h1 className="hometitle">Filmes em Cartaz</h1>
         <div className="filmes">
             {Filmes.Filmes.map((filme) => (
                 <Link to={"/filme/" + filme.route}>   
