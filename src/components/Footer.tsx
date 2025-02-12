@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Footer = ()=>{
     return <div className="footer">
-        <a href="https://github.com/h1toh">Desenvolvido por Lucas Gomes</a>
+        <Link to="https://github.com/h1toh" target="_blank">Desenvolvido por Lucas Gomes</Link>
     </div>
 }
 
