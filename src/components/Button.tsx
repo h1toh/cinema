@@ -1,11 +1,12 @@
 interface ButtonProps {
-    valor: string;
-    nomeClasse: string;
+    valor?: string;
+    nomeClasse?: string;
+    id?: string;
     onClick?: () => void;
 }
 
-const Button = ({ valor, nomeClasse, onClick }: ButtonProps) => {
-    return <input className={nomeClasse} type="button" value={valor} onClick={onClick} />;
+const Button = ({ id, valor, nomeClasse, onClick }: ButtonProps) => {
+    return <input id={id} className={nomeClasse} type="button" value={valor} onClick={onClick} />;
 }
 
 export default Button
