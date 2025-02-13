@@ -1,81 +1,203 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.header{
+
+.githubImg {
+    height: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
     background-color: #1a6a9c;
     color: white;
     padding: 20px 60px;
     display: flex;
     align-items: center;
-    
 }
-body{
+
+.headerLink {
+    display: flex;
+    gap: 10px;
+}
+
+body {
     height: 100vh;
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(22, 35, 53)) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
 }
-.headertitle, a{
-    
+
+.headertitle,
+a {
+
     color: white;
     text-decoration: none;
 }
-.hometitle{
+
+.hometitle {
     font-size: 25px;
     text-align: left;
     padding: 40px 0;
 }
-.filmes{
+
+.filmes {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vh;
     gap: 20px;
 }
-.poster{
+
+.poster {
+    transition: 0.2s;
     border-radius: 10px;
     height: 400px;
 }
-.filmeCartaz{
+
+.filmeCartaz {
     display: flex;
     flex-direction: column;
     height: 0px;
     width: 300px;
     gap: 10px;
 }
-img{
-    transition: 0.2s;
+
+.poster:hover {
+    -webkit-box-shadow: 0px 0px 102px -17px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: 0px 0px 102px -17px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 102px -17px rgba(255, 255, 255, 0.4);
 }
-img:hover{
-    -webkit-box-shadow: 0px 0px 102px -17px rgba(255,255,255,0.4);
-    -moz-box-shadow: 0px 0px 102px -17px rgba(255,255,255,0.4);
-    box-shadow: 0px 0px 102px -17px rgba(255,255,255,0.4);
-}
-.home{
+
+.home {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.footer{
+
+.info {
+    height: 400px;
+    display: flex;
+    background: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.infoText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 35%;
+}
+
+.posterInfo {
+    height: 300px;
+}
+
+.banner {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.trailer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70vh;
-    padding: 30px 0;
+    gap: 20px;
+    margin-top: 50px;
+    flex-direction: column;
 }
-@media (max-width: 768px){
-    .filmes{
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btnSessoes,
+.btnTrailer {
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.btnSessoes:hover,
+.btnTrailer:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.btnSessoes {
+    background-color: #1a6a9c;
+    color: white;
+    border: none;
+}
+
+.btnTrailer {
+    background-color: #ffffff00;
+    color: white;
+    border: solid #1a6a9c 2px;
+}
+
+.favicon {
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .filmes {
         display: flex;
         width: 100%;
         flex-direction: column;
         gap: 600px;
     }
-    .footer{
-        margin-top: 60vh;
+
+    .info {
+        height: 500px;
+        gap: 30px;
+    }
+
+    .posterInfo {
+        height: 200px;
+    }
+
+    .infoText {
+        width: 50%;
+    }
+
+    .infoText p {
+        font-size: 14px;
+    }
+
+    .infoText h1 {
+        font-size: 22px;
+    }
+
+    iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+    .btnSessoes,
+    .btnTrailer {
+        height: 50px;
+        width: 140px;
+        font-size: 15px;
     }
 }
