@@ -11,7 +11,7 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1a6a9c;
     color: white;
     padding: 20px 60px;
@@ -32,17 +32,19 @@ body {
     color: white;
 }
 
-.headertitle,
-a {
-
+.headertitle, a {
     color: white;
     text-decoration: none;
+}
+.headertitle{
+    font-size: 27px;
 }
 
 .hometitle {
     font-size: 25px;
-    text-align: left;
+    margin-left: -1000px;
     padding: 40px 0;
+
 }
 
 .filmes {
@@ -160,6 +162,19 @@ span {
     height: 30px;
 }
 
+.notFound{
+    height: 90vh;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.notFound img{
+    height: 300px;
+}
+
 @media (max-width: 768px) {
     .filmes {
         display: flex;
@@ -199,5 +214,8 @@ span {
         height: 50px;
         width: 140px;
         font-size: 15px;
+    }
+    .hometitle{
+        margin-left: 0px;
     }
 }
