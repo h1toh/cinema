@@ -1,5 +1,11 @@
 # 🎬 Cinema App
 
+
+## Imagens do projeto ( WIP )
+<img src="https://github.com/h1toh/cinema/blob/main/src/assets/images/screenshots/13-02-b.png">
+<img src="https://github.com/h1toh/cinema/blob/main/src/assets/images/screenshots/13-02-a.png">
+
+
 Este é um projeto de um **site de cinema** onde os usuários podem:
 
 - 🍿 **Ver filmes em cartaz**.
