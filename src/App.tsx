@@ -1,5 +1,4 @@
 import Header from "./components/Header"
-import Footer from "./components/Footer"
 
 import Home from "./pages/Home"
 import Assentos from "./pages/Assentos"
@@ -18,14 +17,13 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/filme/:nome" element={<Filme />} />
+          <Route path="/filme/:route" element={<Filme />} />
           <Route path="/sessoes/:filme" element={<Sessoes />} />
           <Route path="/assentos/:sessao" element={<Assentos />} />
           <Route path="/ingressos/:sessao" element={<Ingressos />} />
           <Route path="/pagamento/:sessao" element={<Pagamento />} />
         </Routes>
 
-        <Footer />
       </BrowserRouter>
 
     </>
