@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom"
 import Filmes from "../assets/database/Filmes"
-import ScrollTrailer from "./ScrollTrailer";
-import ScrollSessao from "./ScrollSessoes";
+import ScrollButton from "./ScrollButton";
 
 const Info = () => {
 
@@ -25,8 +24,8 @@ const Info = () => {
                     <p>{filme.duracao} | {filme.genero} {filme.classificacao}</p>
                     <p>{filme.sinopse}</p>
                     <div className="buttons">
-                        <ScrollSessao id="sessoes"/>
-                        <ScrollTrailer id="trailer"/>
+                        <ScrollButton valor="Ver sessoes" nomeClasse="btnSessoes" id="sessoes"/>
+                        <ScrollButton valor="Ver trailer" nomeClasse="btnTrailer" id="trailer"/>
                     </div>
                 </div>
             </div>
