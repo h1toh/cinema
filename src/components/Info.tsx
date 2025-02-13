@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import Filmes from "../assets/database/Filmes"
 import ScrollButton from "./ScrollButton";
 import YoutubeTrailer from "./YoutubeTrailer";
+import NotFound from "./NotFound";
 
 const Info = () => {
 
@@ -11,7 +12,7 @@ const Info = () => {
         f.route === route)
 
     if (!filme) {
-        return <div>O filme não foi encontrado</div>
+        return <NotFound/>
     }
 
     return (
