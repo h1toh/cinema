@@ -1,0 +1,33 @@
+{
+    "sessoes": [
+        {
+            "id": 1,
+            "filme": "Ainda Estou Aqui",
+            "filmeId": 1,
+            "data": "01-03-2025",
+            "hora": "14:00",
+            "sala": 1,
+            "assentos": [
+                {"numero":"A1", "disponivel":true},
+                {"numero":"A2", "disponivel":true},
+                {"numero":"A3", "disponivel":true},
+                {"numero":"A4", "disponivel":true},
+                
+                {"numero":"B1", "disponivel":true},
+                {"numero":"B2", "disponivel":true},
+                {"numero":"B3", "disponivel":true},
+                {"numero":"B4", "disponivel":true},
+
+                {"numero":"C1", "disponivel":true},
+                {"numero":"C2", "disponivel":true},
+                {"numero":"C3", "disponivel":true},
+                {"numero":"C4", "disponivel":true},
+                
+                {"numero":"D1", "disponivel":true},
+                {"numero":"D2", "disponivel":true},
+                {"numero":"D3", "disponivel":true},
+                {"numero":"D4", "disponivel":true}
+            ]
+        }
+    ]
+}
