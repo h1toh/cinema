@@ -6,21 +6,16 @@
 <img src="https://github.com/h1toh/cinema/blob/main/src/assets/images/screenshots/13-02-a.png">
 
 
-Este é um projeto de um **site de cinema** onde os usuários podem:
+Este é um projeto de um **site de cinema**
 
-- 🍿 **Ver filmes em cartaz**.
-- 🎟️ **Escolher sessões** para assistir ao filme. (a ser implementado)
-- 💺 **Selecionar seus assentos** para a sessão escolhida. (a ser implementado)
-- 💳 **Escolher formas de pagamento** para adquirir os ingressos. (a ser implementado)
-- 📄 **Gerar um ingresso em PDF** com todas as informações da sessão (a ser implementado).
 
 ## 🚀 Funcionalidades ( Há funcionalidades que ainda estão sendo desenvolvidas )
 
-- **Filmes em Cartaz**: Exibe uma lista de filmes em alta com informações como título, ano, diretor e gênero.
-- **Seleção de Sessão**: O usuário pode escolher uma sessão para assistir ao filme, com horários disponíveis. (a ser implementado)
-- **Escolha de Assento**: O usuário pode selecionar um assento disponível para sua sessão, caso não esteja ocupado. (a ser implementado)
-- **Forma de Pagamento**: O sistema oferece diferentes opções de pagamento para a compra do ingresso. (a ser implementado)
-- **Geração de Ingresso**: Após a confirmação do pagamento, um ingresso em **PDF** será gerado, com nome do filme, horário, assento e sessão. (a ser implementado)
+- 🍿 **Filmes em Cartaz**: Exibe uma lista de filmes em alta com informações como título, ano, diretor e gênero.
+- 🎟️ **Seleção de Sessão**: O usuário pode escolher uma sessão para assistir ao filme, com horários disponíveis. (a ser implementado)
+- 💺 **Escolha de Assento**: O usuário pode selecionar um assento disponível para sua sessão, caso não esteja ocupado. (a ser implementado)
+- 💳 **Forma de Pagamento**: O sistema oferece diferentes opções de pagamento para a compra do ingresso. (a ser implementado)
+- 📄 **Geração de Ingresso**: Após a confirmação do pagamento, um ingresso em **PDF** será gerado, com nome do filme, horário, assento e sessão. (a ser implementado)
 
 ## 🛠️ Tecnologias Utilizadas
 
