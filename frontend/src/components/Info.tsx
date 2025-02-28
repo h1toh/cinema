@@ -1,18 +1,19 @@
 import { useParams } from "react-router-dom"
-import Filmes from "../assets/database/Filmes"
 import ScrollButton from "./ScrollButton";
 import YoutubeTrailer from "./YoutubeTrailer";
 import NotFound from "./NotFound";
+import FilmesData from "../assets/data/FilmesData";
 
 const Info = () => {
 
     const { route } = useParams<{ route: string }>();
 
-    const filme = Filmes.Filmes.find((f) =>
-        f.route === route)
+    const data = FilmesData()
+
+    const filme = data.filmes.find((f) => f.route === route)
 
     if (!filme) {
-        return <NotFound/>
+        return <NotFound />
     }
 
     return (
@@ -32,7 +33,7 @@ const Info = () => {
                     </div>
                 </div>
             </div>
-            
+
             <YoutubeTrailer title={filme.titulo} src={filme.trailerYoutubeEmbed} />
         </>
     )
